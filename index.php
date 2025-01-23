@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Form</title>
     <style>
-        /* Background and Page Styling */
         body {
-            background-color: #f7f7f7; /* Light grey background */
+            background-color: #f7f7f7; 
             font-family: 'Arial', sans-serif;
             display: flex;
             justify-content: center;
@@ -15,7 +14,6 @@
             height: 100vh;
             margin: 0;
         }
-
         .container {
             background-color: #fff;
             border-radius: 8px;
@@ -24,13 +22,11 @@
             width: 400px;
             text-align: center;
         }
-
         h2 {
             color: #333;
             font-size: 24px;
             margin-bottom: 20px;
         }
-
         label {
             font-size: 18px;
             color: #555;
@@ -38,7 +34,6 @@
             display: block;
             text-align: left;
         }
-
         input[type="text"], input[type="email"], input[type="date"] {
             width: 100%;
             padding: 12px;
@@ -48,11 +43,10 @@
             box-sizing: border-box;
             font-size: 16px;
         }
-
         input[type="submit"] {
             width: 100%;
             padding: 12px;
-            background-color:rgb(74, 192, 207); /* Green background */
+            background-color:rgb(74, 192, 207);
             color: white;
             font-size: 18px;
             border: none;
