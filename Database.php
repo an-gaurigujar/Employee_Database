@@ -14,7 +14,6 @@ class Database {
         }
     }
 
-    // Close the connection when no longer needed
     public function close() {
         $this->conn->close();
     }
