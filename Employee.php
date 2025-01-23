@@ -4,7 +4,6 @@ class Employee {
     public function __construct($db) {
         $this->conn = $db->conn;
     }
-
     public function addEmployee($name, $email, $birthdate) {
         $stmt = $this->conn->prepare("INSERT INTO employee (name, email, birthdate) VALUES (?, ?, ?)");
         $stmt->bind_param("sss", $name, $email, $birthdate);
