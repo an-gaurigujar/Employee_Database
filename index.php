@@ -46,7 +46,7 @@
         input[type="submit"] {
             width: 100%;
             padding: 12px;
-            background-color:rgb(74, 192, 207);
+            background-color:rgb(74, 192, 207); 
             color: white;
             font-size: 18px;
             border: none;
@@ -54,16 +54,13 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
-
         input[type="submit"]:hover {
             background-color:rgb(67, 196, 235);
         }
-
         .error-message {
             color: red;
             margin-bottom: 10px;
         }
-
     </style>
 </head>
 <body>
